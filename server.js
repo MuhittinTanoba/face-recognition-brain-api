@@ -23,7 +23,22 @@ app.use(cors());
 
 const database = {
   users: [
-
+    {
+      id: "123",
+      name: "muhi",
+      email: "muhitan@gmail.com",
+      password: "cookie",
+      entries: 0,
+      joined: new Date(),
+    },
+    {
+      id: "321",
+      name: "bekri",
+      email: "bekri@gmail.com",
+      password: "cookie123",
+      entries: 0,
+      joined: new Date(),
+    },
   ],
 
   login: [
